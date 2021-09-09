@@ -1,7 +1,7 @@
 
 
 window.onload = function () {
-  alert("Tiêu diệt 20 Dr.octopus để thắng")
+  alert("Tiêu diệt 15 Dr.octopus để thắng")
 }
 var jet = document.getElementById("jet");
 var board = document.getElementById("board");
