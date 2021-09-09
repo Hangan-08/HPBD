@@ -44,7 +44,7 @@ window.addEventListener("keydown", (e) => {
             //Scoreboard
             document.getElementById("points").innerHTML =
               parseInt(document.getElementById("points").innerHTML) + 1;
-              if(document.getElementById("points").innerHTML == '21'){
+              if(document.getElementById("points").innerHTML == '15'){
                 $( "#exampleModal" ).modal('toggle');
                 clearInterval(moverocks);
               }
