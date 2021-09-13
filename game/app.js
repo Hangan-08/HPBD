@@ -1,7 +1,7 @@
 
 
 window.onload = function () {
-  alert("Tiêu diệt 15 Dr.octopus để thắng")
+  alert("Tiêu diệt 5 Dr.octopus để thắng")
 }
 var jet = document.getElementById("jet");
 var board = document.getElementById("board");
@@ -44,7 +44,7 @@ window.addEventListener("keydown", (e) => {
             //Scoreboard
             document.getElementById("points").innerHTML =
               parseInt(document.getElementById("points").innerHTML) + 1;
-              if(document.getElementById("points").innerHTML == '15'){
+              if(document.getElementById("points").innerHTML == '5'){
                 $( "#exampleModal" ).modal('toggle');
                 clearInterval(moverocks);
               }
